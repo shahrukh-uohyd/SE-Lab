@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Software Engineering Lab</title>
+    <meta name="description" content="Software Engineering Lab at School of Computer and Information Sciences, University of Hyderabad">
+    <meta name="author" content="Software Engineering Lab, SCIS, UoH">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="{{ '/' | relative_url }}">🔬 SE Lab</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/research.html' | relative_url }}" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/publications.html' | relative_url }}" class="nav-link">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/members.html' | relative_url }}" class="nav-link">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/activities.html' | relative_url }}" class="nav-link">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/contact.html' | relative_url }}" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Software Engineering Lab</h4>
+                <p>School of Computer and Information Sciences<br>
+                University of Hyderabad<br>
+                Hyderabad, Telangana, India</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
+                    <li><a href="{{ '/publications.html' | relative_url }}">Publications</a></li>
+                    <li><a href="{{ '/members.html' | relative_url }}">Members</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:Salman@uohyd.ac.in">Salman@uohyd.ac.in</a><br>
+                Office: N-110, SCIS<br>
+                <a href="https://www.uohyd.ac.in" target="_blank">University Website</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Software Engineering Lab, University of Hyderabad. All rights reserved.</p>
+            <p><a href="https://github.com/shahrukh-uohyd/SE-Lab" target="_blank">GitHub Repository</a></p>
+        </div>
+    </footer>
+</body>
+</html>
