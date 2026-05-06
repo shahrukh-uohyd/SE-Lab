@@ -216,10 +216,12 @@ tr:hover {
 }
 
 .hero-logo {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
+    object-fit: contain;
     margin: 20px 0;
 }
+
 
 .hero-text h1 {
     color: var(--secondary-color);
