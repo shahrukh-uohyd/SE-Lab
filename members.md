@@ -26,18 +26,19 @@ title: Members
 | Name | Research Area | Joining Year | Status |
 |------|---------------|--------------|--------|
 | Md. Shahrukh Ansari | Software Quality in Multi-language Systems | 2020 | Active |
-| Student Name 2 | Area of Research | 2024 | Active |
+| Harinath Kuruva | Visualization | 2021 | Active |
+|Sasmita Patra|--|2022| Active |
+D.R.L. Prasanna | Smells in Infrastructure Provisioning | 2023 | Active |
 
 ---
 
-## MS Students
+## M.Tech Students
 
-*Add current MS students*
 
 | Name | Research Area | Joining Year | Status |
 |------|---------------|--------------|--------|
-| Student Name 1 | Area of Research | 2024 | Active |
-| Student Name 2 | Area of Research | 2025 | Active |
+| Vamsi Bachu | Code Smell Detection using ML | 2025 | Active |
+| Yash Pramar | Code Plagiarism Detection | 2025 | Active |
 
 ---
 
