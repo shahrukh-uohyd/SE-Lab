@@ -1,0 +1,28 @@
+title: "Software Engineering Lab"
+description: "Research in Software Engineering at University of Hyderabad"
+baseurl: "/SE-Lab"
+url: "https://shahrukh-uohyd.github.io"
+author: "Software Engineering Lab, SCIS, University of Hyderabad"
+email: "Salman@uohyd.ac.in"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  activities:
+    output: true
+    permalink: /activities/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "activities"
+    values:
+      layout: "activity"
