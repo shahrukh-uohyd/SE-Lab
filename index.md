@@ -6,7 +6,7 @@ title: Home
 # Welcome to Software Engineering Lab
 
 <div class="hero-section">
-  <img src="{{ site.baseurl }}/assets/images/selablogo.png" alt="SE Lab Logo" class="hero-logo">
+  <img src="{{ site.baseurl }}/assets/images/selablogo.png" class="hero-logo">
   <div class="hero-text">
     <h1>{{ site.lab_name }}</h1>
     <p class="subtitle">{{ site.school }}, {{ site.university }}</p>
