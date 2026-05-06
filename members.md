@@ -21,8 +21,6 @@ title: Members
 
 ## PhD Students
 
-*Add current PhD students*
-
 | Name | Research Area | Joining Year | Status |
 |------|---------------|--------------|--------|
 | Md. Shahrukh Ansari | Software Quality in Multi-language Systems | 2020 | Active |
