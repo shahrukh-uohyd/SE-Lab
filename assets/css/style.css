@@ -35,7 +35,7 @@ header {
 }
 
 .navbar {
-    padding: 1rem 0;
+    padding: 0.4rem 0;
 }
 
 .nav-container {
@@ -48,14 +48,36 @@ header {
 }
 
 .nav-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .nav-logo a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     color: var(--secondary-color);
     text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.nav-logo a:hover {
+    opacity: 0.8;
+}
+
+/* Logo Image - Compact Sizing */
+.logo-image {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.logo-text {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .nav-menu {
@@ -208,30 +230,30 @@ tr:hover {
 /* Hero Section */
 .hero-section {
     text-align: center;
-    padding: 2rem 0;
-    /* background: linear-gradient(135deg, var(--primary-color) 0%, #002a57 100%); */
+    padding: 1.5rem 0;
     color: white;
     border-radius: 8px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .hero-logo {
-    max-width: 500px;
+    max-width: 280px;
     height: auto;
     object-fit: contain;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
-
 .hero-text h1 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     border: none;
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .subtitle {
-    font-size: 1.2rem;
-    color: #ddd;
+    font-size: 1rem;
+    color: #666;
 }
 
 /* Code & Pre */
@@ -308,10 +330,22 @@ footer {
     color: var(--secondary-color);
 }
 
-/* Responsive Design */
+/* Responsive Design - Tablet */
 @media (max-width: 768px) {
+    .navbar {
+        padding: 0.3rem 0;
+    }
+
     .nav-menu {
         gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .logo-image {
+        height: 30px;
+    }
+
+    .logo-text {
         font-size: 0.9rem;
     }
 
@@ -329,6 +363,12 @@ footer {
 
     .hero-logo {
         max-width: 200px;
+        margin: 8px 0;
+    }
+
+    .hero-section {
+        padding: 1rem 0;
+        margin-bottom: 1.5rem;
     }
 
     .footer-content {
@@ -344,10 +384,31 @@ footer {
     }
 }
 
+/* Responsive Design - Mobile */
 @media (max-width: 480px) {
+    .navbar {
+        padding: 0.25rem 0;
+    }
+
+    .nav-container {
+        padding: 0 10px;
+    }
+
     .nav-menu {
         gap: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .nav-logo a {
+        gap: 5px;
+    }
+
+    .logo-image {
+        height: 28px;
+    }
+
+    .logo-text {
+        display: none;
     }
 
     h1 {
@@ -363,15 +424,34 @@ footer {
     }
 
     .hero-section {
-        padding: 1rem 0;
+        padding: 0.8rem 0;
+        margin-bottom: 1rem;
     }
 
     .hero-logo {
         max-width: 150px;
+        margin: 5px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 1.3rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
     }
 
     .activity-card, .member-card, .publication-card {
         padding: 1rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
     }
 }
 
