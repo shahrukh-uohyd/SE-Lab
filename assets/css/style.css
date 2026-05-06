@@ -209,7 +209,7 @@ tr:hover {
 .hero-section {
     text-align: center;
     padding: 2rem 0;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #002a57 100%);
+    /* background: linear-gradient(135deg, var(--primary-color) 0%, #002a57 100%); */
     color: white;
     border-radius: 8px;
     margin-bottom: 3rem;
