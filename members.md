@@ -25,7 +25,7 @@ title: Members
 
 | Name | Research Area | Joining Year | Status |
 |------|---------------|--------------|--------|
-| Student Name 1 | Area of Research | 2023 | Active |
+| Md. Shahrukh Ansari | Software Quality in Multi-language Systems | 2020 | Active |
 | Student Name 2 | Area of Research | 2024 | Active |
 
 ---
