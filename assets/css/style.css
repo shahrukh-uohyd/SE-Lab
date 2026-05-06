@@ -216,7 +216,7 @@ tr:hover {
 }
 
 .hero-logo {
-    max-width: 800px;
+    max-width: 500px;
     height: auto;
     object-fit: contain;
     margin: 20px 0;
