@@ -25,11 +25,8 @@ Our research focuses on improving software quality, development processes, and m
 
 - **Software Quality & Testing**
 - **Software Process & Methodologies**
-- **DevOps & Continuous Integration**
 - **Software Maintenance & Evolution**
 - **Software Security**
-
-*[Add more research themes as needed]*
 
 ---
 
