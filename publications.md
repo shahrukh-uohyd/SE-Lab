@@ -17,7 +17,7 @@ title: Publications
 
 ### 2025
 
-*Add your 2025 publications here*
+**2025** | Harinath Kuruva, Chandana Narthu, Swarupa Rani K., Salman Abdul Moiz | "A computationally efficient hybrid model for enhancing quality clusters in visualization(https://doi.org/10.1016/j.compeleceng.2025.110772)" | Computers and Electrical Engineering Vol. 129, Part A
 
 ---
 
