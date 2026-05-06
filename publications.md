@@ -21,6 +21,8 @@ title: Publications
 
 ---
 
+**2025** | Dharamsotu Bheekya, Salman Abdul Moiz & C. Raghavendra Rao | "Approximated Outlier Selection and Visualization with Approximated t-SNE (https://doi.org/10.1007/978-981-95-4957-3_9)" | In: Quan, T.T., Sombattheera, C., Pham, HA., Tran, N.T. (eds) Multi-disciplinary Trends in Artificial Intelligence. MIWAI 2025.
+
 ### 2024
 
 *Add your 2024 publications here*
