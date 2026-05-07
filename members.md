@@ -25,7 +25,7 @@ title: Members
 |------|---------------|--------------|--------|
 | Md. Shahrukh Ansari | Software Quality in Multi-language Systems | 2020 | Active |
 | Harinath Kuruva | Visualization | 2021 | Active |
-|Sasmita Patra|--|2022| Active |
+|Sasmita Patra| Software Quality and Cloud Computing |2022| Active |
 D.R.L. Prasanna | Smells in Infrastructure Provisioning | 2023 | Active |
 
 ---
